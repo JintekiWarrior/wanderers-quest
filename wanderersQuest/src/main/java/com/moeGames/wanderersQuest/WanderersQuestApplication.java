@@ -10,4 +10,6 @@ public class WanderersQuestApplication {
 		SpringApplication.run(WanderersQuestApplication.class, args);
 	}
 
+
+
 }
