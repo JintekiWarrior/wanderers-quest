@@ -18,7 +18,7 @@ public class Player {
     private int stamina;
     private int mana;
 
-    @OneToMany(mappedBy = "Item")
+    @OneToMany(mappedBy = "player")
     private List<Item> inventory;
 
     public Player() {
