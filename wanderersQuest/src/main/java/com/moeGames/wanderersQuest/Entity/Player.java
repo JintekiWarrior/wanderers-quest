@@ -1,4 +1,4 @@
-package com.moeGames.wanderersQuest.Dao;
+package com.moeGames.wanderersQuest.Entity;
 
 import javax.persistence.*;
 
