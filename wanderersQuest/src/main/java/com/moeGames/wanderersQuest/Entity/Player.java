@@ -1,6 +1,7 @@
 package com.moeGames.wanderersQuest.Entity;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "tbl_Players")
@@ -16,6 +17,9 @@ public class Player {
     private int health;
     private int stamina;
     private int mana;
+
+    @OneToMany(mappedBy = "Item")
+    private List<Item> inventory;
 
     public Player() {
     }
